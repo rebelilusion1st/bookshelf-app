@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../assets/img/leaves.png');
+}
+
+body, input, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+input, button {
+    font-size: 16px;
+}
+
+.head_bar {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006E7F;
+    color: #F8CB2E;
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+.input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.input_section > h2 {
+    text-align: center;
+    color: #006E7F;
+}
+
+.input_section > form > .input {
+    margin: 8px 0;
+}
+
+.input_section > form > button {
+    background-color: #EE5007;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input_section > form > button > span {
+    font-weight: bold;
+}
+
+.input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.input_section > form > .input > label {
+    color: #006E7F;
+    font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+    color: #B22727;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.search_section {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.search_section > h2 {
+    color: #006E7F;
+}
+
+.search_section > form {
+    padding: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr 0.5fr;
+    grid-gap: 10px;
+}
+
+.search_section > form > label {
+    display: flex;
+    align-items: center;
+}
+
+.search_section > form > input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search_section > form > button {
+    background-color: #EE5007;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book_shelf {
+    margin: 16px 0 0 0;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.book_shelf > h2 {
+    color: #006E7F;
+}
+
+.book_shelf > .book_list {
+    padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid rgb(183, 178, 178);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+    margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .green {
+    background-color: #006E7F;
+    color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .red {
+    background-color: #B22727;
+    color: white;
+}
+
+.card {
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 9px -1px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 10px 10px 9px -1px rgba(0, 0, 0, 0.58);
+    box-shadow: 10px 10px 9px -1px rgba(0, 0, 0, 0.58);
+    border: 1px solid rgb(224, 221, 221);
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #006E7F;
+    padding: 10px 0;
+}
